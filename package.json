@@ -1,6 +1,6 @@
 {
     "name": "@types/cassanknex",
-    "version": "1.19.5",
+    "version": "1.19.8-hasutech",
     "description": "TypeScript definitions for cassanknex",
     "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/cassanknex",
     "license": "MIT",
@@ -20,10 +20,8 @@
     },
     "scripts": {},
     "dependencies": {
-        "@types/long": "^4.0.0",
         "@types/node": "*",
-        "cassandra-driver": "^4.2.0"
-    },
-    "typesPublisherContentHash": "4a06c2d10867e2ad4ddaa9b0f8f46156e41d1546391c82fc036a856a49f1b822",
-    "typeScriptVersion": "3.9"
+        "cassandra-driver": "^4.2.0",
+        "long": "^5.2.3"
+    }
 }
